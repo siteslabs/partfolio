@@ -1,0 +1,5 @@
+.heroContainer {
+  height: 100vh;
+  background: url("../images/header-background.jpg") no-repeat;
+  background-size: cover;
+}

@@ -15,15 +15,17 @@ const Card = ({ stacks, url, codeSrc, imgUrl, title }) => {
         <h2 className=" text-2xl capitalize border-b-2 border-yellow-300 py-4">
           {title}
         </h2>
-        <h2 className="my-4">Stacks</h2>
-        <div className={`${styles.tags} text-red-700 flex flex-1 flex-wrap`}>
+        <h2 className="my-4 hidden lg:block">Stacks</h2>
+        <div
+          className={`${styles.tags} my-1 text-red-700 text-sm md:text-base xl:text-lg flex flex-1 flex-wrap`}
+        >
           {stacks.map((stack, index) => (
             <div key={index} className={`${styles.tag}`}>
               {stack}
             </div>
           ))}
         </div>
-        <div className="mb-4 flex justify-between w-2/5">
+        <div className="mb-4 flex justify-between w-4/5 md:w-2/5 ">
           <button className={`${styles.btn}`}>
             <a href={codeSrc} target="_blank" className="flex items-center">
               <DiGithubBadge className=" mr-2" size="1.5rem" />

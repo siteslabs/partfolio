@@ -7,9 +7,38 @@ import project6 from "../images/projects/project-6.png"
 import project7 from "../images/projects/project-7.png"
 import project8 from "../images/projects/project-8.png"
 import project9 from "../images/projects/project-9.png"
+import project13 from "../images/projects/project-13.png"
 import Card from "./Card"
 
 const projects = [
+  {
+    id: 10,
+    imgUrl: project13,
+    title: "Google v2",
+    url: "https://google-v2-two.vercel.app/",
+    stacks: [
+      "Next js",
+      "HTML5 (JSX)",
+      "tailwindcss",
+      "AJAX (REST API)",
+      "HeroIcons",
+    ],
+    codeSrc: "https://github.com/siteslabs/google-v2",
+  },
+
+  {
+    id: 8,
+    imgUrl: project8,
+    title: "Todo List",
+    url: "https://beksultan-react-todo-list.netlify.app/",
+    stacks: [
+      "HTML5 (JSX)",
+      "CSS3",
+      "React js",
+      "react-addons-css-transition-group",
+    ],
+    codeSrc: "https://github.com/siteslabs/react-todo-list",
+  },
   {
     id: 9,
     imgUrl: project9,
@@ -91,19 +120,6 @@ const projects = [
     url: "https://beksultan-react-lorem-ipsum.netlify.app/",
     stacks: ["HTML5 (JSX)", "CSS3", "React js"],
     codeSrc: "https://github.com/siteslabs/react-lorem-ipsum",
-  },
-  {
-    id: 8,
-    imgUrl: project8,
-    title: "Todo List",
-    url: "https://beksultan-react-todo-list.netlify.app/",
-    stacks: [
-      "HTML5 (JSX)",
-      "CSS3",
-      "React js",
-      "react-addons-css-transition-group",
-    ],
-    codeSrc: "https://github.com/siteslabs/react-todo-list",
   },
 ]
 

@@ -12,7 +12,7 @@ const Hero = () => {
       <div className=" flex items-center h-4/5 w-4/5 mx-auto">
         <div className="text-5xl text-white capitalize font-bold tracking-wide">
           welcome to <br />
-          <Typical steps={["my personal partfolio"]} loop={"no"} wrapper="p" />
+          <Typical steps={["my personal portfolio"]} loop={"no"} wrapper="p" />
         </div>
       </div>
     </div>

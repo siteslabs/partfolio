@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Partolio</title>
+        <title>Portolio</title>
         <meta name="description" content="Mamashov Beksultan " />
         <link rel="icon" href="/favicon.ico" />
       </Head>

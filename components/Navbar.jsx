@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className=" grid gap-3  text-white md:flex place-content-between w-4/5 items-center  mx-auto">
         <div>
           <DiCssdeck size="2rem" className="inline-block" />
-          Parfolio
+          Porfolio
         </div>
         <div className="grid md:flex justify-evenly md:flex-1">
           {navs.map((nav, index) => (

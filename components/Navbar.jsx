@@ -44,7 +44,7 @@ const Navbar = () => {
         <div>
           <a
             className="hover:text-red-600 transition-color duration-500 "
-            href="https://github.com/siteslabs/siteslabs.github.io/blob/master/README.md"
+            href="https://github.com/siteslabs"
             target="_blank"
           >
             <DiGithubBadge size="2rem" />

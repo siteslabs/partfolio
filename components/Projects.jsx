@@ -8,11 +8,12 @@ import project7 from "../images/projects/project-7.png"
 import project8 from "../images/projects/project-8.png"
 import project9 from "../images/projects/project-9.png"
 import project13 from "../images/projects/project-13.png"
+import project14 from "../images/projects/project-14.png"
 import Card from "./Card"
 
 const projects = [
   {
-    id: 10,
+    id: 11,
     imgUrl: project13,
     title: "Google v2",
     url: "https://google-v2-two.vercel.app/",
@@ -24,6 +25,20 @@ const projects = [
       "HeroIcons",
     ],
     codeSrc: "https://github.com/siteslabs/google-v2",
+  },
+  {
+    id: 10,
+    imgUrl: project14,
+    title: "Beach resort",
+    url: "https://react-resort-e9d634.netlify.app/",
+    stacks: [
+      "React js",
+      "React router dom",
+      "React Context",
+      "HTML5 (JSX)",
+      "AJAX (REST API)",
+    ],
+    codeSrc: "https://github.com/siteslabs/react-resort",
   },
 
   {

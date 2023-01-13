@@ -5,8 +5,17 @@ import { ImTelegram } from "react-icons/im";
 
 const info = [
   {
-    title: "Hobbies",
-    text: ["Drawing", "Watching movies", "Listening musics"],
+    title: "Experiences",
+    text: [
+      '"Новая Норма" (November 2020 — March 2021)',
+      '"Kvadrat" (April 2021 — September 2021)',
+      '"AIBOMED" (October 2021 — January 2022)',
+      '"IOpent" (January 2022 — March 2022)',
+      '"ЕРП (Единый реестр поручений)" (March 2022 — May 2022)',
+      '"Sober space" (June 2022 — October 2022)',
+      '"B2BCloud" (October 2022 — December 2022)',
+    ],
+    additionalClassed: "col-span-2",
   },
   {
     title: "Qualities",
@@ -20,18 +29,6 @@ const info = [
       "English – upper-intermediate",
     ],
   },
-  {
-    title: "Experiences",
-    text: [
-      '"Новая Норма" (Ноябрь 2020 — март 2021)',
-      '"Kvadrat" (Апрель 2021 — сентябрь 2021)',
-      '"AIBOMED" (Октябрь 2021 — январь 2022)',
-      '"IOpent" (Январь 2022 — март 2022)',
-      '"ЕРП (Единый реестр поручений)" (Март 2022 — май 2022)',
-      '"Sober space" (Июнь 2022 — октябрь 2022)',
-      '"B2BCloud" (Октябрь 2022 — декабрь 2022)',
-    ],
-  },
 ];
 
 const About = () => {
@@ -43,7 +40,7 @@ const About = () => {
         </div>
         <div className="grid gap-y-10 2xl:grid-cols-4 md:grid-cols-3 grid-cols-1 justify-center my-8 ">
           {info.map((inf, index) => (
-            <div key={index}>
+            <div className={inf.additionalClassed} key={index}>
               <div className="text-xl font-bold  italic text-yellow-700">
                 {inf.title}
               </div>

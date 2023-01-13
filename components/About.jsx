@@ -5,19 +5,6 @@ import { ImTelegram } from "react-icons/im";
 
 const info = [
   {
-    title: "Experiences",
-    text: [
-      '"Новая Норма" (November 2020 — March 2021)',
-      '"Kvadrat" (April 2021 — September 2021)',
-      '"AIBOMED" (October 2021 — January 2022)',
-      '"IOpent" (January 2022 — March 2022)',
-      '"ЕРП (Единый реестр поручений)" (March 2022 — May 2022)',
-      '"Sober space" (June 2022 — October 2022)',
-      '"B2BCloud" (October 2022 — December 2022)',
-    ],
-    additionalClassed: "col-span-2",
-  },
-  {
     title: "Qualities",
     text: ["Responsibility", "Punctuality", "Sociable", "Positive thinking"],
   },
@@ -28,6 +15,36 @@ const info = [
       "Russian – fluent",
       "English – upper-intermediate",
     ],
+  },
+  {
+    title: "Experiences",
+    text: [
+      <>
+        Новая Норма
+        <span className="text-right">November 2020 — March 2021</span>
+      </>,
+      <>
+        Kvadrat <span className="text-right">April 2021 — September 2021</span>
+      </>,
+      <>
+        AIBOMED <span className="text-right">October 2021 — January 2022</span>
+      </>,
+      <>
+        IOpent <span className="text-right">January 2022 — March 2022</span>
+      </>,
+      <>
+        ЕРП (Единый реестр поручений)
+        <span className="text-right">March 2022 — May 2022</span>
+      </>,
+      <>
+        Sober space <span className="text-right">June 2022 — October 2022</span>
+      </>,
+      <>
+        B2BCloud
+        <span className="text-right">October 2022 — December 2022</span>
+      </>,
+    ],
+    additionalClassed: "col-span-2",
   },
 ];
 
@@ -46,7 +63,7 @@ const About = () => {
               </div>
               <div className="m-2">
                 {inf.text.map((text, index) => (
-                  <p className="m-1" key={index}>
+                  <p className="m-1 flex justify-between" key={index}>
                     {text}
                   </p>
                 ))}

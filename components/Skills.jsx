@@ -1,14 +1,28 @@
-import { AiFillHtml5 } from "react-icons/ai"
-import { DiCss3 } from "react-icons/di"
-import { SiJavascript } from "react-icons/si"
-import { FaReact } from "react-icons/fa"
-import { SiReactrouter } from "react-icons/si"
-import { SiRedux } from "react-icons/si"
-import { BsFillBootstrapFill } from "react-icons/bs"
-import { DiSass } from "react-icons/di"
-import { SiTailwindcss } from "react-icons/si"
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { SiJavascript, SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiReactrouter } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import { BsFillBootstrapFill } from "react-icons/bs";
+import { DiSass } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 
 const skills = [
+  {
+    icon: <FaReact className="text-blue-500" />,
+    title: "React",
+  },
+  {
+    id: 6,
+    icon: <SiTypescript className="text-blue-400" />,
+    title: "TypeScript",
+  },
+  {
+    id: 5,
+    icon: <SiJavascript className="text-yellow-400" />,
+    title: "JavaScript",
+  },
   {
     icon: <AiFillHtml5 className="text-yellow-600" />,
     title: "HTML5",
@@ -26,15 +40,6 @@ const skills = [
     title: "TailwindCSS",
   },
   {
-    id: 5,
-    icon: <SiJavascript className="text-yellow-400" />,
-    title: "JS",
-  },
-  {
-    icon: <FaReact className="text-blue-500" />,
-    title: "React",
-  },
-  {
     icon: <SiReactrouter className="text-blue-500" />,
     title: "React router",
   },
@@ -43,17 +48,12 @@ const skills = [
     title: "Redux",
   },
   {
-    icon: (
-      <span className="flex">
-        <FaReact className="text-blue-500" />
-        <SiRedux className="text-blue-500" />
-      </span>
-    ),
-    title: "React-Redux",
+    icon: "",
+    title: "Redux toolkit",
   },
   {
     icon: "",
-    title: "Axios (AJAX)",
+    title: "RTK Query",
   },
   {
     icon: "",
@@ -63,7 +63,7 @@ const skills = [
     icon: <BsFillBootstrapFill className="text-indigo-500" />,
     title: "Bootstrap",
   },
-]
+];
 
 const Skills = () => {
   return (
@@ -84,7 +84,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

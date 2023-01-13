@@ -1,19 +1,17 @@
-import { HiOutlineMail } from "react-icons/hi"
-import { AiTwotonePhone } from "react-icons/ai"
-import { IoLogoWhatsapp } from "react-icons/io"
-import { ImTelegram } from "react-icons/im"
+import { HiOutlineMail } from "react-icons/hi";
+import { AiTwotonePhone } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { ImTelegram } from "react-icons/im";
 
 const info = [
   {
     title: "Hobbies",
     text: ["Drawing", "Watching movies", "Listening musics"],
   },
-
   {
     title: "Qualities",
     text: ["Responsibility", "Punctuality", "Sociable", "Positive thinking"],
   },
-
   {
     title: "Languages",
     text: [
@@ -22,18 +20,19 @@ const info = [
       "English – upper-intermediate",
     ],
   },
-
   {
     title: "Experiences",
     text: [
-      `"Новая Норма" Company (6 month)`,
-      "HTML academy (Online)",
-      "Code academy (Online)",
-      "freeCodeCamp (Online)",
-      "Udemy (Online)",
+      '"Новая Норма" (Ноябрь 2020 — март 2021)',
+      '"Kvadrat" (Апрель 2021 — сентябрь 2021)',
+      '"AIBOMED" (Октябрь 2021 — январь 2022)',
+      '"IOpent" (Январь 2022 — март 2022)',
+      '"ЕРП (Единый реестр поручений)" (Март 2022 — май 2022)',
+      '"Sober space" (Июнь 2022 — октябрь 2022)',
+      '"B2BCloud" (Октябрь 2022 — декабрь 2022)',
     ],
   },
-]
+];
 
 const About = () => {
   return (
@@ -71,24 +70,17 @@ const About = () => {
           </div>
           <div className="border border-gray-500 p-4 rounded-md bg-gray-900">
             <div className="text-gray-500 mb-2 ">
-              <AiTwotonePhone className="inline-block mr-2" />
-              Phone
-            </div>
-            <a href="tel:+996552554662">+996 552-554-662</a>
-          </div>
-          <div className="border border-gray-500 p-4 rounded-md bg-gray-900">
-            <div className="text-gray-500 mb-2 ">
               <IoLogoWhatsapp className="inline-block mr-2 text-green-500" />
               WhatsApp
               <ImTelegram className="inline-block mr-2 ml-4 text-blue-400" />
               Telegram
             </div>
-            <a>+996 500-92-36-29</a>
+            <a>+996 552-554-662</a>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

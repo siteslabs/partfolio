@@ -1,6 +1,6 @@
-import Image from "next/image"
-import styles from "../styles/Card.module.css"
-import { DiGithubBadge } from "react-icons/di"
+import Image from "next/image";
+import styles from "../styles/Card.module.css";
+import { DiGithubBadge } from "react-icons/di";
 
 const Card = ({ stacks, url, codeSrc, imgUrl, title }) => {
   return (
@@ -40,7 +40,7 @@ const Card = ({ stacks, url, codeSrc, imgUrl, title }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

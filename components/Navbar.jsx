@@ -1,7 +1,7 @@
-import Link from "next/link"
+import Link from "next/link";
 
-import { DiCssdeck } from "react-icons/di"
-import { DiGithubBadge } from "react-icons/di"
+import { DiCssdeck } from "react-icons/di";
+import { DiGithubBadge } from "react-icons/di";
 
 const navs = [
   {
@@ -20,7 +20,7 @@ const navs = [
     href: "about",
     text: "About",
   },
-]
+];
 
 const Navbar = () => {
   return (
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
